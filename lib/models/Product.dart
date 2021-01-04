@@ -27,10 +27,7 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/ps4_console_white_1.png",
-      "assets/images/ps4_console_white_2.png",
-      "assets/images/ps4_console_white_3.png",
-      "assets/images/ps4_console_white_4.png",
+      "assets/images/flour.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -38,7 +35,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Wireless Controller for PS4™",
+    title: "Flour",
     price: 64.99,
     description: description,
     rating: 4.8,
@@ -48,7 +45,7 @@ List<Product> demoProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/Image Popular Product 2.png",
+      "assets/images/ketchup.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -56,7 +53,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White - Man Pant",
+    title: "Ketchup",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -65,7 +62,7 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/glap.png",
+      "assets/images/milk.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -73,7 +70,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Gloves XC Omega - Polygon",
+    title: "Milk",
     price: 36.55,
     description: description,
     rating: 4.1,
@@ -83,7 +80,7 @@ List<Product> demoProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/wireless headset.png",
+      "assets/images/pasta.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -91,13 +88,68 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Pasta",
     price: 20.20,
     description: description,
     rating: 4.1,
     isFavourite: true,
+    isPopular: true,
+  ),
+  Product(
+    id: 5,
+    images: [
+      "assets/images/potatoes.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Potatoes",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: true,
+  ),
+  Product(
+    id: 6,
+    images: [
+      "assets/images/rice.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Rice",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: true,
+  ),
+  Product(
+    id: 7,
+    images: [
+      "assets/images/suger.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Sugar",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: true,
   ),
 ];
 
 const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+    "In marketing, a product is an object or system made available for consumer use; it is anything that can be offered to a market to satisfy the desire or need of a customer.[1] In retailing, products are often referred to as merchandise, and in manufacturing, products are bought as raw materials and then sold as finished goods. A service is also regarded to as a type of product.";

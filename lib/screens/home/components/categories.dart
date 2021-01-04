@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shop_app/screens/shops/filter_page.dart';
 
 import '../../../size_config.dart';
 
@@ -7,11 +8,16 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Map<String, dynamic>> categories = [
-      {"icon": "assets/icons/Flash Icon.svg", "text": "Flash Deal"},
-      {"icon": "assets/icons/Bill Icon.svg", "text": "Bill"},
-      {"icon": "assets/icons/Game Icon.svg", "text": "Game"},
-      {"icon": "assets/icons/Gift Icon.svg", "text": "Daily Gift"},
-      {"icon": "assets/icons/Discover.svg", "text": "More"},
+      // {"icon": "assets/icons/Flash Icon.svg", "text": "Flash Deal"},
+      // {"icon": "assets/icons/Bill Icon.svg", "text": "Bill"},
+      // {"icon": "assets/icons/Game Icon.svg", "text": "Game"},
+      // {"icon": "assets/icons/Gift Icon.svg", "text": "Daily Gift"},
+      // {"icon": "assets/icons/Discover.svg", "text": "More"},
+      {"icon": "assets/icons/groceries.svg", "text": "Grocery"},
+      {"icon": "assets/icons/first-aid-kit.svg", "text": "Medical"},
+      {"icon": "assets/icons/script.svg", "text": "Books"},
+      {"icon": "assets/icons/shirt.svg", "text": "Fashion"},
+      {"icon": "assets/icons/plus.svg", "text": "More"},
     ];
     return Padding(
       padding: EdgeInsets.all(getProportionateScreenWidth(20)),
@@ -23,7 +29,9 @@ class Categories extends StatelessWidget {
           (index) => CategoryCard(
             icon: categories[index]["icon"],
             text: categories[index]["text"],
-            press: () {},
+            press: () {
+              Navigator.pushNamed(context, FilterPage.routeName);
+            },
           ),
         ),
       ),
